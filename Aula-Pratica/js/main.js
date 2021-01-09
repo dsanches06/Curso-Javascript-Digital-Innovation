@@ -49,3 +49,38 @@ var frutas = [
 console.log(frutas);
 console.log(frutas[3].nome);
 console.log(frutas[3].cor);
+
+//condicionais com if-else if-else
+console.log("\n--- CONDICIONAIS ---");
+//var idade = prompt("Qual a sua idade?"); //inserir texto para questoes e inserção de dados
+var idade = 18; //inserir texto para questoes e inserção de dados
+if (idade >= 18) {
+  //alert("maior de idade");
+  console.log("maior de idade");
+} else {
+  // alert("menor de idade");
+  console.log("menor de idade");
+}
+
+//laços de repetição com for, while
+console.log("\n--- LAÇOS DE REPETIÇÃO - while ---");
+var count = 0;
+while (count <= 5) {
+  console.log(count);
+  count++;
+}
+
+//laços de repetição com for, while
+console.log("\n--- LAÇOS DE REPETIÇÃO - for ---");
+for (let i = 0; i <= 5; i++) {
+  console.log(i);
+}
+
+//data em javascript
+console.log("\n--- DATE EM JAVASCRIPT ---");
+var d = new Date();
+console.log(d);
+console.log(d.getDay());
+console.log(d.getMonth() + 1);
+console.log(d.getHours());
+console.log(d.getMinutes());

@@ -80,7 +80,28 @@ for (let i = 0; i <= 5; i++) {
 console.log("\n--- DATE EM JAVASCRIPT ---");
 var d = new Date();
 console.log(d);
-console.log(d.getDay());
+console.log(d.getDate());
 console.log(d.getMonth() + 1);
 console.log(d.getHours());
 console.log(d.getMinutes());
+console.log(d.getDate() + "/" + (d.getMonth() + 1));
+
+//funções em javascript
+console.log("\n--- FUNÇÕES EM JAVASCRIPT---");
+
+function soma(n1, n2) {
+  return n1 + n2;
+}
+console.log(soma(5, 10));
+
+function validarIdade(idade) {
+  var validar; //variavel local
+  if (idade >= 18) {
+    validar = true;
+  } else {
+    validar = false;
+  }
+  return validar;
+}
+var idade = 29;
+console.log(validarIdade(idade));
